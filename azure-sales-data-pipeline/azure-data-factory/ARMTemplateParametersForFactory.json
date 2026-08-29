@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adf-cars-yash-81"
+        },
+        "ls_sql_db_password": {
+            "value": ""
+        },
+        "ls_datalake_accountKey": {
+            "value": ""
+        },
+        "ls_databricks_accessToken": {
+            "value": ""
+        },
+        "ls_sql_db_properties_typeProperties_server": {
+            "value": "carsalesserver81.database.windows.net"
+        },
+        "ls_sql_db_properties_typeProperties_database": {
+            "value": "car-sales-db"
+        },
+        "ls_sql_db_properties_typeProperties_userName": {
+            "value": ""
+        },
+        "ls_github_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com"
+        },
+        "ls_datalake_properties_typeProperties_url": {
+            "value": "https://carsalesdatalake81.dfs.core.windows.net/"
+        },
+        "ls_databricks_properties_typeProperties_existingClusterId": {
+            "value": "0825-150758-gjy5kx97"
+        }
+    }
+}
