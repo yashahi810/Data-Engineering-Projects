@@ -1,6 +1,0 @@
-I am ingesting real-time data
-
-New Data Ingested.
-
-
-Ahi here, I am ingesting real-time data
