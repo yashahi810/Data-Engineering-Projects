@@ -6,5 +6,9 @@ CREATE TABLE water_table
     last_load VARCHAR(2000)
 )
 
--- Seed with an initial watermark value before the first incremental run
--- INSERT INTO water_table (last_load) VALUES ('0')
+-- Check current watermark value
+SELECT * FROM water_table
+
+-- Seed with an initial watermark value before the first pipeline run
+INSERT INTO water_table
+VALUES ('DT00000')
