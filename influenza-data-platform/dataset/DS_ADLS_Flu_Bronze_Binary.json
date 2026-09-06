@@ -1,23 +1,18 @@
 {
-	"name": "DS_ADLS_Flu_Landing_CSV",
+	"name": "DS_ADLS_Flu_Bronze_Binary",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_ADLS_FluData",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Binary",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "landing",
+				"folderPath": "bronze",
 				"fileSystem": "flu-data"
-			},
-			"columnDelimiter": ",",
-			"escapeChar": "\\",
-			"firstRowAsHeader": true,
-			"quoteChar": "\""
-		},
-		"schema": []
+			}
+		}
 	}
 }

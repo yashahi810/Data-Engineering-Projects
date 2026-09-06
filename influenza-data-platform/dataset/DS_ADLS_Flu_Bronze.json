@@ -1,5 +1,5 @@
 {
-	"name": "DS_ADLS_Flu_Landing_CSV",
+	"name": "DS_ADLS_Flu_Bronze",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_ADLS_FluData",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "landing",
+				"folderPath": "bronze",
 				"fileSystem": "flu-data"
 			},
 			"columnDelimiter": ",",
