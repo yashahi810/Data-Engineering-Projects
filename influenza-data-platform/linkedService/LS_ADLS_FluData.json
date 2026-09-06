@@ -1,0 +1,10 @@
+{
+	"name": "LS_ADLS_FluData",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://stinfluenza810.dfs.core.windows.net/"
+		}
+	}
+}
