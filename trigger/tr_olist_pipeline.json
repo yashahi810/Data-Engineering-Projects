@@ -1,0 +1,25 @@
+{
+	"name": "tr_olist_pipeline",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_olist_medallion_pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-09-21T22:00:00",
+				"endTime": "2026-09-23T14:34:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
